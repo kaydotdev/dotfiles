@@ -1,0 +1,5 @@
+[user]
+	name = Anton Kozyriev
+	email = 22917736+antonAce@users.noreply.github.com
+[alias]
+	hist = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
