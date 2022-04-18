@@ -23,4 +23,5 @@ alias gdiff-s="git diff --staged"
 alias gcommit="git commit -m"
 alias grecommit="git commit --amend -m"
 alias gremote="git remote -v"
+alias ghist="git hist"
 
