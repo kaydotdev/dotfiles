@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Bash alias
 
 alias ll="ls -la"
