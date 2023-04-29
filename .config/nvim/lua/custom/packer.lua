@@ -5,7 +5,6 @@ vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
 	use 'wbthomason/packer.nvim'
-
 	use {
 		'nvim-telescope/telescope.nvim',
 		tag = '0.1.1',
@@ -13,10 +12,8 @@ return require('packer').startup(function(use)
 	}
 
 	use { 'marko-cerovac/material.nvim' }
-
 	use { 'nvim-treesitter/nvim-treesitter', { run = ':TSUpdate'} }
 	use { 'nvim-treesitter/playground' }
-
 	use { 'nvim-tree/nvim-web-devicons' }
 	use {
 		'nvim-lualine/lualine.nvim',
@@ -24,7 +21,6 @@ return require('packer').startup(function(use)
 	}
 
 	use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'}
-
 	use {
 		'nvim-tree/nvim-tree.lua',
 		requires = {
@@ -42,6 +38,7 @@ return require('packer').startup(function(use)
 			{'MunifTanjim/nui.nvim'}
 		}
 	}
+
 	use { 'mbbill/undotree' }
 	use {
 		'VonHeikemen/lsp-zero.nvim',
@@ -62,5 +59,10 @@ return require('packer').startup(function(use)
 	}
 
 	use { 'preservim/vim-markdown' }
+	use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+		require("toggleterm").setup{
+			direction = 'float',
+		}
+	end}
 end)
 
