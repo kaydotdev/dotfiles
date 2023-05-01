@@ -61,7 +61,7 @@ return require('packer').startup(function(use)
 	use { 'preservim/vim-markdown' }
 	use {"akinsho/toggleterm.nvim", tag = '*', config = function()
 		require("toggleterm").setup{
-			direction = 'float',
+			direction = 'horizontal',
 		}
 	end}
 end)
