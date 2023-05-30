@@ -12,7 +12,7 @@ require("nvim-tree").setup({
 		group_empty = true,
 		icons = {
 			glyphs = {
-				folder = { arrow_closed = "⮞" }
+				folder = { arrow_closed = "›" }
 			}
 		}
 	},
