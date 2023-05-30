@@ -2,8 +2,8 @@ require('lualine').setup {
 	options = {
 		icons_enabled = false,
 		theme = 'onedark',
-		section_separators = '',
-		component_separators = '',
+		section_separators = { left = '◣', right = '◢' },
+		component_separators = { left = '│', right = '│' },
 		disabled_filetypes = {
 			statusline = {},
 			winbar = {},
