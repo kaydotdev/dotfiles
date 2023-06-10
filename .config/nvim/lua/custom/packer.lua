@@ -32,13 +32,6 @@ return require('packer').startup(function(use)
 		end
 	}
 
-	use {
-		'VonHeikemen/fine-cmdline.nvim',
-		requires = {
-			{'MunifTanjim/nui.nvim'}
-		}
-	}
-
 	use { 'mbbill/undotree' }
 	use {
 		'VonHeikemen/lsp-zero.nvim',
