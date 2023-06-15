@@ -7,15 +7,6 @@ alias la="ls -a"
 alias rmdir="rm -rf"
 alias grephist="less .bash_history | grep"
 
-# Python alias
-
-alias venvnew="python -m venv venv"
-alias venvrm="rm -rf venv"
-alias venvon="source venv/bin/activate"
-alias venvoff="deactivate"
-alias python="python3"
-alias pip="pip3"
-
 # Git alias
 
 alias gnew="git init"
