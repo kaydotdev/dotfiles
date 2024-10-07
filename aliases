@@ -1,0 +1,5 @@
+alias ll='ls -la'
+alias la='ls -a'
+alias rmdir='rm -rf'
+alias histgrep='read -p ">>> "; history | grep -i "$REPLY" | cut -d " " -f 4-'
+alias addvars='set -a && source .env && set +a'
